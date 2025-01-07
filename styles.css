@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: #f4f4f4;
+    border: 2px solid #ccc;
+    position: relative;
+    transition: background-color 0.3s ease;
+  }
+  
+  .square.mole {
+    background: url('https://github.com/Kalvium-Program/Image-files/raw/main/mole.jpg') no-repeat center center/contain;
+  }
+  
+  h2 {
+    margin: 10px 0;
+    color: #333;
+  }
+  
